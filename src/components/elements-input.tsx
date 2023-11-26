@@ -8,7 +8,7 @@ const InputCastom = React.forwardRef<HTMLInputElement, InputCastomProps>(
   ({ className, required, ...props }, ref) => {
     return (
       <div
-        className={`min-w-0 flex-auto rounded-md border-0 bg-white/5 text-white ring-1 ring-inset sm:text-sm sm:leading-6 placeholder:font-light placeholder:text-white/50" ${
+        className={`min-w-0 flex-auto rounded-md border-0 bg-white/5 text-white ring-1 ring-inset sm:text-sm sm:leading-6 placeholder:font-light placeholder:text-white/50 ${
           className ? className : ""
         }`}
       >

@@ -1,5 +1,4 @@
 import * as React from "react";
-import { cn } from "../lib/utils";
 
 //BUTTON
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -15,7 +14,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         ref={ref}
         {...props}
         className={`
-        "text-sm font-semibold"
+        text-sm font-semibold
           ${
             !variant &&
             "rounded-md bg-accent-600 px-3.5 py-2.5 text-white shadow-sm hover:bg-accent-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-600"
