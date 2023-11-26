@@ -1,0 +1,30 @@
+{
+  "name": "@roodiroot/zap-ui",
+  "version": "1.0.3",
+  "description": "Zap UI library of ui components and blocks for creating a website using React.",
+  "bin": {
+    "@roodiroot/zap-ui": "index.js"
+  },
+  "scripts": {
+    "pub": "npm version patch && npm publish"
+  },
+  "keywords": [],
+  "author": {
+    "name": "@roodiroot",
+    "email": "borisov130490@gmail.com",
+    "url": "https://github.com/roodiroot"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "tailwindcss": "*"
+  }
+}
