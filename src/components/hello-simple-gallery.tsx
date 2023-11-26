@@ -1,5 +1,5 @@
 import * as React from "react";
-import { cn } from "../lib/utils";
+//$ npx @roodiroot/zap-ui add elements-button
 import { Button } from "./elements-button";
 
 interface SimpleGalleryProps extends React.HtmlHTMLAttributes<HTMLDivElement> {
@@ -34,7 +34,11 @@ const SimpleGallery = React.forwardRef<HTMLDivElement, SimpleGalleryProps>(
   ) => {
     // [mask-image:radial-gradient(white_50%,transparent_80%)]
     return (
-      <div ref={ref} {...props} className={cn("relative isolate", className)}>
+      <div
+        ref={ref}
+        {...props}
+        className={`relative isolate, ${className ? className : ""}`}
+      >
         {pattern}
         <div className='overflow-hidden'>
           <div className='pb-32 max-w-7xl mx-auto px-6 pt-36 sm:pt-[15rem] lg:pt-32 lg:px-8'>

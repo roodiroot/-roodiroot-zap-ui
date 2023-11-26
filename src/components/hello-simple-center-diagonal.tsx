@@ -1,6 +1,7 @@
 import * as React from "react";
-import { cn } from "../lib/utils";
+//$ npx @roodiroot/zap-ui add elements-biglink
 import { BigLink } from "./elements-biglink";
+//$ npx @roodiroot/zap-ui add elements-button
 import { Button } from "./elements-button";
 
 interface SimpleCenterVariantDiagonalProps
@@ -36,7 +37,11 @@ const SimpleCenterVariantDiagonal = React.forwardRef<
     ref
   ) => {
     return (
-      <div ref={ref} {...props} className={cn("relative", className)}>
+      <div
+        ref={ref}
+        {...props}
+        className={`relative, ${className ? className : ""}`}
+      >
         <div className='max-w-7xl mx-auto'>
           <div className='relative z-10 pt-14 w-full lg:max-w-2xl'>
             <svg

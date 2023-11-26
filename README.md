@@ -47,7 +47,11 @@ $ npx @roodiroot/zap-ui add <Название элемента>
 
 ### Названия компонентов
 
-- [elements-biglink]
+#### elements-biglink
+
+```sh
+$ npx @roodiroot/zap-ui add elements-biglink
+```
 
 ```tsx
 <div className='hidden sm:mb-8 sm:flex sm:justify-center'>
@@ -58,7 +62,11 @@ $ npx @roodiroot/zap-ui add <Название элемента>
 </div>
 ```
 
-- [elements-button]
+#### elements-button
+
+```sh
+$ npx @roodiroot/zap-ui add elements-button
+```
 
 ```tsx
 <Button onClick={() => console.log("hello world")} variant='link' arrow>
@@ -66,13 +74,21 @@ $ npx @roodiroot/zap-ui add <Название элемента>
 </Button>
 ```
 
-- [elements-input]
+#### elements-input
+
+```sh
+$ npx @roodiroot/zap-ui add elements-input
+```
 
 ```tsx
 <InputCastom placeholder='Введите ваш номер телефона' required />
 ```
 
-- [hello-simple-center]
+#### hello-simple-center
+
+```sh
+$ npx @roodiroot/zap-ui add hello-simple-center
+```
 
 ```tsx
 <div className=''>
@@ -90,7 +106,11 @@ $ npx @roodiroot/zap-ui add <Название элемента>
 </div>
 ```
 
-- [hello-simple-gallery]
+#### hello-simple-gallery
+
+```sh
+$ npx @roodiroot/zap-ui add hello-simple-gallery
+```
 
 ```tsx
 <SimpleGallery
@@ -107,7 +127,11 @@ $ npx @roodiroot/zap-ui add <Название элемента>
 />
 ```
 
-- [hello-simple-center-diagonal]
+#### hello-simple-center-diagonal
+
+```sh
+$ npx @roodiroot/zap-ui add hello-simple-center-diagonal
+```
 
 ```tsx
 <div>
