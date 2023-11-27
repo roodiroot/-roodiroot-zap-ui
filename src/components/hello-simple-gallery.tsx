@@ -37,7 +37,7 @@ const SimpleGallery = React.forwardRef<HTMLDivElement, SimpleGalleryProps>(
       <div
         ref={ref}
         {...props}
-        className={`relative isolate, ${className ? className : ""}`}
+        className={`relative isolate ${className ? className : ""}`}
       >
         {pattern}
         <div className='overflow-hidden'>
@@ -67,7 +67,7 @@ const SimpleGallery = React.forwardRef<HTMLDivElement, SimpleGalleryProps>(
                 <div className='min-w-[11rem] w-44 pt-32 sm:pt-80 lg:pt-36 xl:pt-80 lg:order-last xl:order-none '>
                   <div className='relative aspect-[2/3] w-full h-auto rounded-xl object-cover shadow-lg overflow-hidden'>
                     <img
-                      src={img_list[6]}
+                      src={img_list[0]}
                       alt='cutest kitten"'
                       className='w-full h-full object-cover'
                     />

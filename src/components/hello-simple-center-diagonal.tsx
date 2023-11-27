@@ -40,7 +40,7 @@ const SimpleCenterVariantDiagonal = React.forwardRef<
       <div
         ref={ref}
         {...props}
-        className={`relative, ${className ? className : ""}`}
+        className={`relative ${className ? className : ""}`}
       >
         <div className='max-w-7xl mx-auto'>
           <div className='relative z-10 pt-14 w-full lg:max-w-2xl'>
